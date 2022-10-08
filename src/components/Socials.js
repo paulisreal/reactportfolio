@@ -10,13 +10,13 @@ import { AiOutlineGithub} from 'react-icons/ai';
 function Socials() {
   return (
 
-<div className='icons'>
-    <SiFacebook/>
+ <div className='icons'>
+    <SiFacebook />
     <BsInstagram />
     <BsTwitter />
     <FiLinkedin />
     <AiOutlineGithub/>
-</div>
+</div> 
    
   )
 }

@@ -1,5 +1,15 @@
-.icons{
+.icons {
     color: antiquewhite;
-    margin-top: 130px;
-    justify-content: space-between;
+    display: flex;
+    margin-top: 125px;
+     margin-left: 500px; 
+    font-size: large;
+    align-items: center;
+    gap: 30px;
+    
+    
    }
+   .icons :hover{
+    cursor: pointer;
+   }
+   
