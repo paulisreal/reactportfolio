@@ -1,0 +1,40 @@
+.navlinks{
+
+  background-color: #181818; 
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+
+}
+.logo{
+    color: white;
+    font-family: Apple Chancery;
+}
+.nav-tabs {
+    font-family: Apple Braille;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: space-around;
+    list-style: none;
+    gap: 80px;
+  
+  
+    
+}   
+.nav-tabs :hover{
+    color: aqua;
+    cursor: pointer;
+    
+}
+.line{
+    background-color: rgb(154, 148, 148);
+    height: 3px;
+    width: auto;
+    box-shadow: 0px 10px 35px 0px rgba(228, 220, 220, 0.41);
+
+    
+}
