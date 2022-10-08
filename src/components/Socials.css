@@ -1,7 +1,7 @@
 .icons {
     color: antiquewhite;
     display: flex;
-    margin-top: 120px;
+    margin-top: 200px;
      margin-left: 500px; 
     font-size: large;
     align-items: center;
@@ -11,5 +11,9 @@
    }
    .icons :hover{
     cursor: pointer;
+   }
+   .email{
+    margin-left: 450px;
+    font-size: 15px;
    }
    

@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <div>
+    <div className='nav-edit'>
         
         <div className='navlinks'>
          <h3 className='logo'>Paul Israel</h3>

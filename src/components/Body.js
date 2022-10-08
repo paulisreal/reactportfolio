@@ -22,7 +22,7 @@ function Body() {
         </div>
             <ul className='features1'>
                 <li>Website Design</li>
-                <li>Web Design</li>
+                <li>Graphic Design</li>
                 <li>UI/UX</li>
              </ul>
      
