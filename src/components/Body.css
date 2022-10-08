@@ -11,7 +11,7 @@ padding-top: 100px;
 color: white;
 margin-left: 15px;
 font-weight: 200;
-font-size: 38px;
+font-size: 40px;
 
 }
 .sub-intro-body{
@@ -19,7 +19,30 @@ font-size: 38px;
     margin-left: 15px;
     font-weight: 300;
 }
-.btn-body{
+
+.left-body{
+    padding-top: 20px;
+
+}
+
+.right-body{
+    margin-bottom: 20px;
+}
+
+.home-img {
+    border-radius: 40px;
+    height: 440px;
+    width: 360px;
+    margin-left: 100px;
+
+    
+   }
+
+   edit{
+    color: #00ffe0;
+   }
+
+.btn-body {
     margin-top: 50px;
     margin-right: 40px;
     margin-left: 15px;
@@ -31,10 +54,11 @@ font-size: 38px;
     border-color: #00ffe0;
     background: transparent;
     color: #00ffe0;
+    
+}
 
 
     
-}
 .features1{
     color: white;
     list-style: none;
@@ -43,14 +67,5 @@ font-size: 38px;
     gap: 100px;
     font-family: Apple Chancery;
 }
-   .home-img {
-    border-radius: 40px;
-    height: 450px;
-    width: 350px;
-    margin-left: 100px;
-   }
-   edit{
-    color: #00ffe0;
-   }
-
+   
    
