@@ -26,7 +26,8 @@ function Workpage() {
           {/* <p className='project-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nihil similique et perspiciatis, rem delectus dolores</p> */}
           <button className='view-btn'>view</button>
         </div>
-        
+       
+       
       </div>
     </div>
   )

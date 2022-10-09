@@ -1,3 +1,4 @@
+import Aboutpage from './components/Aboutpage';
 import Body from './components/Body';
 import Navbar from './components/Navbar';
 import Socials from './components/Socials';
@@ -9,8 +10,8 @@ function App() {
      <Navbar />
      <Body/>
      <Workpage/>
+     <Aboutpage/>
      <Socials/>
-     
     </div>
   );
 }
