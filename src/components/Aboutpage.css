@@ -6,7 +6,30 @@ font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 35px;
-margin-top: 20%;
+margin-top: 10%;
+display: flex;
+justify-content: space-between;
+padding-left: 20px;
+position: relative;
+left: 50px;
+position: relative;
+margin: auto;
+padding-inline: 50px;
 
 
+
+
+}
+.about1{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 250px;
+    top: 130px;
+}
+.skills{
+  position: relative;
+  left: 110px;
+  top: 160px;
+  font-family: 'Apple Chancery';
 }
