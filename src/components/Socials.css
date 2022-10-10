@@ -2,7 +2,7 @@
     color: antiquewhite;
     display: flex;
     margin-top: 200px;
-     margin-left: 500px; 
+     margin-left: 600px; 
     font-size: large;
     align-items: center;
     gap: 30px;
@@ -13,7 +13,7 @@
     cursor: pointer;
    }
    .email{
-    margin-left: 450px;
+    margin-left: 700px;
     font-size: 15px;
    }
    

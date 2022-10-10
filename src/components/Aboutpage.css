@@ -6,7 +6,10 @@
 
 }
 .skills{
-  left: 110px;
+  position: absolute;
+  left: 100px;
   top: 160px;
   font-family: 'Apple Chancery';
+
+  
 }

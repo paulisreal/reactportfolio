@@ -1,11 +1,13 @@
-/* .home{
+.home{
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-} */
+  
+}
 .home1{
     margin-left: 50px;
     margin-top: 20px;
+    justify-content: center;
+
     
 }
 .all-body{
@@ -15,6 +17,7 @@
     display: flex;
     color: white;
     position: relative;
+    margin-left: 130px;
 
 }
 .intro-body{
@@ -22,7 +25,7 @@ padding-top: 100px;
 color: white;
 margin-left: 15px;
 font-weight: 200;
-font-size: 50px;
+font-size: 60px;
 position: relative;
 bottom: 20px;
 
@@ -34,18 +37,21 @@ bottom: 20px;
 }
 
 .left-body{
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 
 .right-body{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    left: -180px;
+
 }
 
 .home-img {
     border-radius: 40px;
-    height: 460px;
-    width: 370px;
+    height: 550px;
+    width: 450px;
     margin-left: 100px;
     position: relative;
     right: 100px;
@@ -61,7 +67,7 @@ bottom: 20px;
     margin-top: 50px;
     margin-right: 40px;
     margin-left: 15px;
-    height: 40px;
+    height: 50px;
     width: 140px;
     border-radius: 5px;
     border: 1px solid ;
@@ -81,10 +87,11 @@ bottom: 20px;
     color: white;
     list-style: none;
     display: flex;
-    margin-left:  450px;
-    /* margin-top: 70px; */
-    gap: 150px;
+    margin-left:  500px;
+    margin-top: 55px;
+    gap: 200px;
     font-family: Apple Chancery;
+    padding-top: 118px;
 }
    
    

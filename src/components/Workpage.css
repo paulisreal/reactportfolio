@@ -64,7 +64,8 @@ cursor: pointer;
 
 .all-card{
     display: flex;
-    gap: 50px;
+    gap: 200px;
     padding: auto;
     left: 120px;
+    margin-left: 100px;
 }
