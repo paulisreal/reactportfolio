@@ -1,7 +1,7 @@
 .work1{
     margin-left: 50px;
     margin-top: 20px;
-    
+
 }
 .project-name{
     align-items: center;
@@ -47,7 +47,6 @@ color: #F4F4F4;
 }
 .view-btn{
 align-items: center;
-position: absolute;
 color: #00FFE0;
  box-sizing: border-box;
 background: transparent;
@@ -65,6 +64,7 @@ cursor: pointer;
 
 .all-card{
     display: flex;
-    gap: 130px;
+    gap: 50px;
     padding: auto;
+    left: 120px;
 }

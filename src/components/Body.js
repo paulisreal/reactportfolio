@@ -5,7 +5,7 @@ import './Body.css';
 
 function Body() {
   return (
-    <div>
+    <div class="home">
            <h2 className='home1'>Home.</h2>
         <div className='all-body'>
          
@@ -25,8 +25,7 @@ function Body() {
                 <li>Website Design</li>
                 <li>Graphic Design</li>
                 <li>UI/UX</li>
-             </ul>
-     
+             </ul> 
        
     </div>
   )
