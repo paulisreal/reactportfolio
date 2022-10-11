@@ -2,8 +2,8 @@
     color: antiquewhite;
     display: flex;
     margin-top: 200px;
-     margin-left: 600px; 
-    font-size: large;
+     margin-left: 700px; 
+    font-size: 20px;
     align-items: center;
     gap: 30px;
     
@@ -13,7 +13,7 @@
     cursor: pointer;
    }
    .email{
-    margin-left: 700px;
-    font-size: 15px;
+    margin-left: 650px;
+    font-size: 20px;
    }
    

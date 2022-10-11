@@ -6,7 +6,7 @@ function Aboutpage() {
     <div>
         <h2 className="about1">About.</h2>
         <h1 className="skills">My Skills and Achievement</h1>
-        <svg
+        <svg className="svg-about"
           width="1370"
           height="751"
           viewBox="0 0 1370 751"

@@ -18,7 +18,7 @@ function Socials() {
     <FiLinkedin />
     <AiOutlineGithub/>
     <div className='email'>
-      Say hi <MdOutlineMarkEmailUnread/>
+  Say hi <MdOutlineMarkEmailUnread/>
     </div>
 </div> 
    
