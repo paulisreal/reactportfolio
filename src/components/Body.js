@@ -11,9 +11,9 @@ function Body() {
             I am <edit>Paul,</edit> a{" "}
             <edit>
               front end developer
-              <br /> and UI/UX designer
+              <br /></edit>and <edit>UI/UX designer
             </edit>{" "}
-            <br /> based in Ghana{" "}
+            <br /> based in Ghana
           </h1>
           <h5 className="sub-intro-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
