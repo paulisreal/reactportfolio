@@ -7,7 +7,8 @@ function Contactpage() {
          
         </div>
         <div>
-            <input type="text"  placeholder='firstname'></input>
+            <div className='text-box'>
+            <input type="text"  placeholder='firstname' ></input>
             <br/>
             <input type="text"  placeholder='mail'></input>
             <br/>
@@ -15,6 +16,8 @@ function Contactpage() {
             <br/>
             <input type="text"  placeholder='write a message here...'></input>
             <br/>
+            </div>
+            
             <button>download a file attachment</button>
             <br/>
             <button>send message</button>

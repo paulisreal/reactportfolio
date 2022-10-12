@@ -7,10 +7,10 @@ function Navbar() {
       <div className="navlinks">
         <h3 className="logo">Paul Israel</h3>
         <ul className="nav-tabs">
-          <li>Home</li>
-          <li>Work</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li ><a href="home.html">Home</a></li>
+          <li ><a href="work.html">Work</a></li>
+          <li ><a href="#">About</a></li>
+          <li ><a href="#">Contact</a></li>
         </ul>
       </div>
       <div className="line"></div>
