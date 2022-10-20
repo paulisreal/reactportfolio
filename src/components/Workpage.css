@@ -1,71 +1,24 @@
-.work1{
-    margin-left: 50px;
-    margin-top: 20px;
+.carrousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 3rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x mandatory;
+    scrollbar-width: none;
+   margin: 0%;
+    padding-top: 100px;
+  
 
-}
-.project-name{
-    align-items: center;
-    margin-left: 60px;
-    font-family: 'Apple Braille';
-}
-.card1{
-
-background: transparent;
-height: 300px;
-width: 300px;
-border-radius: 10px;
-margin-left: 15px;
-margin-top: 150px;
-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.464));
-align-items: center;
-border: 3px solid rgb(107, 197, 174);
-}
-
-
-.cardpic{
-    height: 300px;
-    width: 300px;
-    /* margin-left: 10px; */
-    align-items: center;
+} 
+.card{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    color: black;
     cursor: pointer;
-    border-radius: 8px;
-    
-}
-.cardpic:hover{
-    background : #2d2b2ba0;
-}
-.project-about{
-   
-
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 25px;
-text-align: center;
-color: #F4F4F4;
-
-}
-.view-btn{
-align-items: center;
-color: #00FFE0;
- box-sizing: border-box;
-background: transparent;
-height: 50px;
-width: 140px;
-margin-left: 95px;
-border: 1px solid #00FFE0;
-filter: drop-shadow(0px 5px 5px rgba(2, 2, 2, 0.25));
-border-radius: 5px;
-cursor: pointer;
-
-
-}
-
-
-.all-card{
-    display: flex;
-    gap: 200px;
-    padding: auto;
-    left: 120px;
-    margin-left: 100px;
+    scroll-snap-align: start;
 }

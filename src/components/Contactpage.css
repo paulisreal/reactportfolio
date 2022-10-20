@@ -1,9 +1,44 @@
 .contact-me{
 
+ padding-top: 50px;
+ display: flex;
+ padding-left: 150px;
  
+ 
+
 }
 .text-box{
-    height: 60px;
-    width: 200px;
-    border-radius: 50px;
+
+    height: 150px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    
+   
+   
+   
+  
+   
 }
+.box-sze{
+    width: 400px;
+    height: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+ 
+}
+.btn{
+  
+  
+}
+.btn-szn{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
