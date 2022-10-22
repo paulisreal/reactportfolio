@@ -1,20 +1,26 @@
 .contact-me{
 
- padding-top: 50px;
+ margin-top: 270px;
  display: flex;
- padding-left: 150px;
+ padding-left: 20px;
+ margin-bottom: 400px;
+
+
  
  
 
 }
 .text-box{
 
-    height: 150px;
-    width: 400px;
+    height: 120px;
+    width: 600px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 20px;
-    
+    margin-bottom: 40px;
+   padding-top: 20px;
+   padding-left: 5px;
+   margin-left: -20px;
+   
    
    
    
@@ -22,23 +28,65 @@
    
 }
 .box-sze{
-    width: 400px;
+
+    width: 600px;
     height: 25px;
     padding-bottom: 10px;
     border-radius: 5px;
     border: none;
     margin-bottom: 20px;
+    padding-left: 5px;
+   margin-left: -20px;
  
 }
 .btn{
-  
-  
+ 
+    height: 45px;
+    width: 190px;
+    border-radius: 5px;
+    
+    margin-bottom: 20px;
+    border: transparent solid;
+    background-color: rgba(118, 115, 115, 0.831);
+    cursor: pointer;
+    color: white;
+    margin-left: -20px;
 }
 .btn-szn{
-    height: 50px;
-    width: 150px;
+    height: 45px;
+    width: 190px;
     border-radius: 5px;
-    border: none;
     margin-bottom: 20px;
+    border:  #00ffe0 solid ;
+    background-color:transparent;
+    cursor: pointer;
+    color:  #00ffe0;
+    margin-left: -20px;
+    
 }
 
+.info{
+    align-content: flex-end;
+    margin-left: 250px;
+    font-size: 17px;
+    
+    
+}
+.contact{
+ position: relative;
+ left: 40px;
+ top:-100px;
+
+   
+}
+ul li{
+    list-style: none;
+   
+    padding: 10px;
+   
+}
+.icon{
+   position: relative;
+   top: 3px;
+   margin-right: 6px;
+}

@@ -1,7 +1,7 @@
-.nav-edit{
+/* .nav-edit{
    background-color: rgba(3, 3, 3, 0.957); 
 
-}
+} */
 
 .navlinks{
 
@@ -29,7 +29,7 @@
   
 }   
 .nav-tabs :hover{
-    color: aqua;
+    color: #00ffe0;
     cursor: pointer;
     
 }
