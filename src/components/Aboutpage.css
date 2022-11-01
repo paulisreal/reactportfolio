@@ -1,8 +1,11 @@
-
+/* .abt{
+  background-image: url("./img/james-eades-6KHi0Yt2xWE-unsplash.jpg");
+  background-size: cover;
+} */
 .about1{
     margin-left: 50px;
     margin-top: 10px;
-    padding-top: 250px;
+    padding-top: 30px;
  
 
 
@@ -22,4 +25,6 @@
 .svg-about{
   position: relative;
   left: 100px;
+  height: 710px;
+  
 }

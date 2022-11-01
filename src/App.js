@@ -4,17 +4,33 @@ import Contactpage from './components/Contactpage';
 import Navbar from './components/Navbar';
 import Socials from './components/Socials';
 import Workpage from './components/Workpage';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
 
 function App() {
   return (
+  <Router>
     <div className="App">
-     <Navbar />
-     <Body/>
-     <Workpage/>
-     <Aboutpage/>
-     <Contactpage/>
-     <Socials/>
+      
+    <Navbar />
+    <Routes>
+    <Route path="/" element={<Body/>} />
+    <Route path="/work" element={<Workpage/>} />
+    <Route path="/about" element={<Aboutpage/>} />
+    <Route path="/contact" element={<Contactpage/>} />
+    <Route path="/socials" element={<Socials/>} />
+      
+    </Routes>
+        <Body/>
+        <Workpage/>
+        <Aboutpage/>
+        <Contactpage/>
+        <Socials/>
     </div>
+  
+  </Router>    
   );
 }
 

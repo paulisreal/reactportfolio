@@ -1,11 +1,14 @@
+
 .home{
+    background-image: url("./img/bg3.jpg");
+  background-size: cover;
     justify-content: center;
     align-items: center;
   
 }
 .home1{
+    margin-top: 0%;
     margin-left: 50px;
-    margin-top: 20px;
     justify-content: center;
 
     

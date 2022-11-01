@@ -3,7 +3,7 @@ import "./Aboutpage.css";
 
 function Aboutpage() {
   return (
-    <div>
+    <div className="abt">
         <h2 className="about1">About.</h2>
         <h1 className="skills">My Skills and Achievement</h1>
         <svg className="svg-about"

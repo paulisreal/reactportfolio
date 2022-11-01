@@ -1,5 +1,9 @@
 body {
-  background-color: rgba(3, 3, 3, 0.957);
+  background-image: url("/src/components/img/bg1.jpg");
+  background-size: cover;
+  background-position:left;
+  
+  /* background-color: rgba(3, 3, 3, 0.957); */
   color: aliceblue
 
   ;

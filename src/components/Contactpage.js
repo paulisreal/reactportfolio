@@ -4,12 +4,13 @@ import { MdOutlineAttachEmail } from 'react-icons/md';
 import {BsPhone} from 'react-icons/bs';
 import {HiLocationMarker} from 'react-icons/hi';
 import {HiOutlineDownload} from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 function Contactpage() {
   return (
   <div className='contact-me'>
-      <h2 className='contact'>Contact.</h2>
+     
         <div className='text-box'>
-    
+        <h2 className='contact'>Contact.</h2>
           <input type="text" className='box-sze' placeholder='firstname' ></input>
           <br/>
           <input type="text" className='box-sze' placeholder='username@mail'></input>
@@ -29,7 +30,7 @@ function Contactpage() {
             Lorem ipsum dolor sit amet consectetur <br/>adipisicing elitsimilique eperspiciatis,<br/> rem delectus dolores, ani</li>
         <li><HiLocationMarker className='icon'/>Accra</li>
         <li><BsPhone className='icon'/><a href="call">+233541014239</a></li>
-        <li  a href="paulireal@gmail.com"><MdOutlineAttachEmail className='icon'/>paulisrael965@gmail.com</li>
+        <li ><MdOutlineAttachEmail className='icon'/><Link to="https://www.paulisreal@gmail.com">paulisrael965@gmail.com</Link></li>
         </ul>
         </div>
       

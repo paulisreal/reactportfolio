@@ -1,7 +1,12 @@
-/* .nav-edit{
-   background-color: rgba(3, 3, 3, 0.957); 
+.nav-edit{
+    background-image: url("./img/bg3.jpg");
+    background-size: cover;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}
 
-} */
+
 
 .navlinks{
 
@@ -9,6 +14,7 @@
   justify-content: space-between;
   color: white;
   width: 100%;
+  text-decoration: none;
 
 }
 .logo{
@@ -18,19 +24,24 @@
 }
 .nav-tabs {
     font-family: Apple Braille;
-    font-weight: 500;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+
+    color: aliceblue;
    
     list-style: none;
     gap: 50px;
     margin-right: 1em;
+    
   
 }   
 .nav-tabs :hover{
     color: #00ffe0;
     cursor: pointer;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
     
 }
 
